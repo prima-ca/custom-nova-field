@@ -1,0 +1,14 @@
+.*.sw?
+.env.backup
+.env
+.env*
+.phpunit.result.cache
+npm-debug.log
+yarn-error.log
+~$*
+*~
+.*
+.backup*
+node_modules
+yarn.lock
+pacakges-lock.json

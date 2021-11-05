@@ -1,0 +1,32 @@
+{
+    "name": "prima-ca/custom-nova-field"
+    "description": "Template for a custom Nova Field",
+    "keywords": [
+        "laravel",
+        "nova",
+        "field",
+        "custom",
+        "template"
+    ],
+    "license": "MIT",
+    "require": {
+        "php": ">=7.1.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "Cyrus\\CustomNovaField\\": "src/"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Cyrus\\CustomNovaField\\FieldServiceProvider"
+            ]
+        }
+    },
+    "config": {
+        "sort-packages": true
+    },
+    "minimum-stability": "dev",
+    "prefer-stable": true
+}
